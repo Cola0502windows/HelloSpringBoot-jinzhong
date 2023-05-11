@@ -23,4 +23,7 @@ spring:
       name: cola
       password: 123456
       roles: admin
+  flyway:
+    baseline-on-migrate: true
+    baseline-version: 20230511001
 

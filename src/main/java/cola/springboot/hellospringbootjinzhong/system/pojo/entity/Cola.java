@@ -1,4 +1,4 @@
-package cola.springboot.hellospringbootjinzhong.system.entity.dao;
+package cola.springboot.hellospringbootjinzhong.system.pojo.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

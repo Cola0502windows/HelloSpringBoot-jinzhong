@@ -1,6 +1,6 @@
 package cola.springboot.hellospringbootjinzhong.system.service.impl;
 
-import cola.springboot.hellospringbootjinzhong.system.entity.dao.Cola;
+import cola.springboot.hellospringbootjinzhong.system.pojo.entity.Cola;
 import cola.springboot.hellospringbootjinzhong.system.mapper.ColaMapper;
 import cola.springboot.hellospringbootjinzhong.system.service.ColaService;
 import jakarta.annotation.Resource;

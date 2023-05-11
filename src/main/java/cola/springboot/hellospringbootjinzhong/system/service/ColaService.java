@@ -1,7 +1,7 @@
 package cola.springboot.hellospringbootjinzhong.system.service;
 
 
-import cola.springboot.hellospringbootjinzhong.system.entity.dao.Cola;
+import cola.springboot.hellospringbootjinzhong.system.pojo.entity.Cola;
 
 import java.util.List;
 

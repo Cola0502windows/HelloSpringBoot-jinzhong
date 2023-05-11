@@ -1,6 +1,6 @@
 package cola.springboot.hellospringbootjinzhong.system.controller;
 
-import cola.springboot.hellospringbootjinzhong.system.entity.dao.Cola;
+import cola.springboot.hellospringbootjinzhong.system.pojo.entity.Cola;
 import cola.springboot.hellospringbootjinzhong.system.service.ColaService;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;

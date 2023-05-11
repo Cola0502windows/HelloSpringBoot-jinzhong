@@ -1,6 +1,6 @@
 package cola.springboot.hellospringbootjinzhong.system.mapper;
 
-import cola.springboot.hellospringbootjinzhong.system.entity.dao.Cola;
+import cola.springboot.hellospringbootjinzhong.system.pojo.entity.Cola;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
