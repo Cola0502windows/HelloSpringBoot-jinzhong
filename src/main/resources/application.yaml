@@ -1,0 +1,26 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: HelloSpringBoot-jinzhzong
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.230.128:3306/hellospringboot_jinzhong
+    username: root
+    password: root
+  data:
+    redis:
+      host: 192.168.230.128
+      password: 123456
+      database: 0
+      port: 6379
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  security:
+    user:
+      name: cola
+      password: 123456
+      roles: admin
+
