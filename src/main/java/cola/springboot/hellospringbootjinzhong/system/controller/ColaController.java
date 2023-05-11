@@ -2,18 +2,18 @@ package cola.springboot.hellospringbootjinzhong.system.controller;
 
 import cola.springboot.hellospringbootjinzhong.system.pojo.entity.Cola;
 import cola.springboot.hellospringbootjinzhong.system.service.ColaService;
-import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 @RestController
 @Slf4j
-@RequestMapping("v1/api/cola")
+@RequestMapping("/api/v1/cola")
 public class ColaController {
 
     @Resource

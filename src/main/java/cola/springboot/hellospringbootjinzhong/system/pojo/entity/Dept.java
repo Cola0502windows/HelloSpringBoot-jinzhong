@@ -1,8 +1,10 @@
 package cola.springboot.hellospringbootjinzhong.system.pojo.entity;
 
-import jakarta.persistence.*;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+
+import javax.persistence.*;
+
 @EqualsAndHashCode(callSuper = true)
 @Entity
 @Table(name = "system_dept")

@@ -1,10 +1,11 @@
 package cola.springboot.hellospringbootjinzhong.system.pojo.entity;
 
 import io.swagger.annotations.ApiModelProperty;
-import jakarta.persistence.Column;
-import jakarta.persistence.MappedSuperclass;
+
 import lombok.Data;
 
+import javax.persistence.Column;
+import javax.persistence.MappedSuperclass;
 import java.time.LocalDateTime;
 
 @Data
