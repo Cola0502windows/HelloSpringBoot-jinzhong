@@ -5,7 +5,7 @@ spring:
     name: HelloSpringBoot-jinzhong
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.230.130:3306/hellospringboot_jinzhong
+    url: jdbc:mysql://192.168.230.222:3306/hellospringboot_jinzhong
     username: root
     password: root
   jpa:
@@ -21,7 +21,7 @@ spring:
     baseline-on-migrate: true
     baseline-version: 20230511001
   redis:
-    host: 192.168.230.130
+    host: 192.168.230.222
     port: 6379
     password: 123456
     database: 0
