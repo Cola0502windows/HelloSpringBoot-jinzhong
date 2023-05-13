@@ -49,8 +49,7 @@ Blog
 ## RoadMap
 
 - [x] 
-- [x] 
-- [x] 
+- [x]
 
 ## Contributing
 
